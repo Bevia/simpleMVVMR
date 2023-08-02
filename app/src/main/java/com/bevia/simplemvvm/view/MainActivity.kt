@@ -1,11 +1,9 @@
 package com.bevia.simplemvvm.view
 
 import android.os.Bundle
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bevia.simplemvvm.R
 import com.bevia.simplemvvm.databinding.ActivityMainBinding
 import com.bevia.simplemvvm.router.Router
 import com.bevia.simplemvvm.viewmodel.UserViewModel

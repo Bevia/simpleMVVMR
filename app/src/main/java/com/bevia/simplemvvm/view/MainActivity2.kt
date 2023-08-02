@@ -1,11 +1,8 @@
 package com.bevia.simplemvvm.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import com.bevia.simplemvvm.R
+import androidx.appcompat.app.AppCompatActivity
 import com.bevia.simplemvvm.databinding.ActivityMain2Binding
-import com.bevia.simplemvvm.databinding.ActivityMainBinding
 
 class MainActivity2 : AppCompatActivity() {
     private lateinit var binding: ActivityMain2Binding

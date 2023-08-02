@@ -1,6 +1,5 @@
 package com.bevia.simplemvvm.router
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
