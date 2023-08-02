@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var userViewModel: UserViewModel
     private lateinit var binding: ActivityMainBinding
     private lateinit var userAdapter: UserAdapter
-    private lateinit var btnToSecondActivity: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,8 +46,7 @@ class MainActivity : AppCompatActivity() {
         val router = Router(this)
         router.routerInit()
 
-        btnToSecondActivity = findViewById(R.id.btnToSecondActivity)
-        btnToSecondActivity.setOnClickListener {
+        binding.btnToSecondActivity.setOnClickListener {
             router.callMainActivity2()
         }
 
