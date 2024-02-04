@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         // Initialize the ViewModel
-        userViewModel = ViewModelProvider(this).get(UserViewModel::class.java)
+        userViewModel = ViewModelProvider(this)[UserViewModel::class.java]
 
         // Create the UserAdapter and pass the list of users from the ViewModel
         userAdapter = UserAdapter(userViewModel.getUsers())
